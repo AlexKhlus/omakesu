@@ -1,0 +1,31 @@
+{
+  "id": "rasy-omakesu",
+  "title": "Расы Омакесу",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "description": "Модуль добавляющий расы из сеттинга Омакесу",
+  "authors": [
+    {
+      "name": "Cabbage",
+      "discord": "sullen_cabbage",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "rasy-omakesu",
+      "label": "Расы Омакесу",
+      "path": "packs/rasy-omakesu",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
