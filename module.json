@@ -1,7 +1,7 @@
 {
   "id": "rasy-omakesu",
   "title": "Расы Омакесу",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -10,7 +10,12 @@
   "authors": [
     {
       "name": "Cabbage",
-      "discord": "sullen_cabbage",
+      "discord": "@sullen_cabbage",
+      "flags": {}
+    },
+    {
+      "name": "Stekly",
+      "discord": "@.stekly",
       "flags": {}
     }
   ],
@@ -20,6 +25,18 @@
       "label": "Расы Омакесу",
       "path": "packs/rasy-omakesu",
       "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "tablicy",
+      "label": "Табилицы",
+      "path": "packs/tablicy",
+      "type": "Rollable Table",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
