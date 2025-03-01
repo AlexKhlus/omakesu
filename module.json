@@ -1,12 +1,12 @@
 {
   "id": "rasy-omakesu",
-  "title": "Расы Омакесу",
-  "version": "1.0.8",
+  "title": "Омакесу",
+  "version": "1.0.9",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
   },
-  "description": "Модуль добавляющий расы из сеттинга Омакесу",
+  "description": "Модуль добавляющий контент из сеттинга Омакесу",
   "authors": [
     {
       "name": "Cabbage",
@@ -25,24 +25,33 @@
       "label": "Расы Омакесу",
       "path": "packs/rasy-omakesu",
       "type": "Item",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e",
-      "flags": {}
+      }
     },
     {
-      "name": "tablicy",
-      "label": "Табилицы",
-      "path": "packs/tablicy",
-      "type": "Rollable Table",
+      "name": "tablicy-omakesu",
+      "label": "Таблицы Омакесу",
+      "path": "packs/tablicy-omakesu",
+      "type": "RollTable",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
+      }
+    },
+    {
+      "name": "klassy-omakesu",
+      "label": "Классы Омакесу",
+      "path": "packs/klassy-omakesu",
+      "type": "Item",
       "system": "dnd5e",
-      "flags": {}
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "socket": true,
