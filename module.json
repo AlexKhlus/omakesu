@@ -55,14 +55,25 @@
     },
     {
       "name": "statbloki",
-      "label": "Статблоки",
+      "label": "Статблоки Омакесу",
       "path": "packs/statbloki",
       "type": "Actor",
+      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "dnd5e"
+      }
+    },
+    {
+      "name": "podklassy",
+      "label": "Подклассы Омакесу",
+      "path": "packs/podklassy",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "socket": true,
