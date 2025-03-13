@@ -1,3 +1,7 @@
-2025/03/09-11:02:53.649 ff4 Recovering log #93
-2025/03/09-11:02:53.654 ff4 Delete type=0 #93
-2025/03/09-11:02:53.655 ff4 Delete type=3 #92
+2025/03/09-12:28:48.666 2190 Recovering log #95
+2025/03/09-12:28:48.671 2190 Delete type=0 #95
+2025/03/09-12:28:48.672 2190 Delete type=3 #94
+2025/03/09-13:05:57.088 4e04 Level-0 table #99: started
+2025/03/09-13:05:57.089 4e04 Level-0 table #99: 0 bytes OK
+2025/03/09-13:05:57.091 4e04 Delete type=0 #97
+2025/03/09-13:05:57.110 4e04 Manual compaction at level-0 from '!tables!SoGhTIWhe3GUvz7M' @ 72057594037927935 : 1 .. '!tables.results!SoGhTIWhe3GUvz7M.mQN7WWQONB06YWDG' @ 0 : 0; will stop at (end)
